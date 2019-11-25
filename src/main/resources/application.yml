@@ -1,3 +1,8 @@
 server:
   port: 8080
 info: Welcome to iuap exams v1.0!
+logging:
+  path: ./logs
+  file:  iuap-exams.log
+  level:
+    root: debug
