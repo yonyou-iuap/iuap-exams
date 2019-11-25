@@ -1,0 +1,194 @@
+.download-first {
+  height: 412px;
+  width: 100%;
+  background: url(/images/donwload/download-banner.jpg) no-repeat;
+  background-size: cover;
+}
+.download-first .content {
+  height: inherit;
+  width: 100%;
+  background-color: rgba(33, 24, 81, 0.8);
+  text-align: center;
+}
+.download-first h3 {
+  padding-top: 134px;
+  color: #fff;
+  font-size: 34px;
+}
+.download-first .middle {
+  width: 613px;
+  height: 59px;
+  margin: 45px auto 0 auto;
+  font-size: 19px;
+  text-align: left;
+  color: #fff;
+}
+.download-first .middle h5 {
+  margin-top: 20px;
+}
+.download-first .nav-bar {
+  margin-top: 83px;
+}
+.download-first .nav-bar li:first-child {
+  border-color: #f3901a;
+  background-color: #f3901a;
+}
+.download-first .nav-bar li {
+  display: inline-block;
+  width: 177px;
+  height: 47px;
+  border: 1px solid #fff;
+  border-bottom: none;
+  padding-top: 12px;
+  font-size: 18px;
+  color: #fff;
+}
+.download-first .nav-bar li:hover {
+  cursor: pointer;
+}
+.download-first .nav-bar .platform {
+  margin-left: -3px;
+}
+.download-sec {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding-bottom: 30px;
+}
+.download-sec .develop-content {
+  width: inherit;
+}
+.download-sec .title {
+  font-size: 20px;
+}
+.download-sec .content-width {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+.download-sec .content-width .version {
+  position: absolute;
+  top: 243px;
+  left: 27px;
+  font-size: 16px;
+}
+.download-sec .bgc {
+  background-color: #EBEBEB;
+}
+.download-sec .content-one {
+  height: 202px;
+  width: 100%;
+}
+.download-sec .icon-one {
+  display: block;
+  width: 69px;
+  height: 67px;
+  background: url(/images/donwload/icon-01.jpg) no-repeat;
+  float: left;
+  margin: 73px 47px 61px 7px;
+}
+.download-sec .text {
+  width: 574px;
+  float: left;
+  font-size: 18px;
+}
+.download-sec .text li {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #d8dada;
+}
+.download-sec .text li,
+.download-sec p {
+  color: #676868;
+}
+.download-sec .text h3 {
+  padding-top: 36px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+.download-sec #li-sec {
+  width: 89px;
+  text-align: center;
+  margin-left: 18px;
+}
+.download-sec .text p {
+  padding-top: 9px;
+  line-height: 28px;
+  word-break: break-all;
+}
+.download-sec .icon-tow {
+  display: block;
+  width: 107px;
+  height: 36px;
+  float: right;
+  background: url(/images/donwload/icon-02.jpg) no-repeat;
+  margin-top: 88px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.download-sec .icon-tow32 {
+  display: block;
+  width: 107px;
+  height: 36px;
+  float: right;
+  background: url(/images/donwload/icon-32.jpg) no-repeat;
+  margin-top: 88px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.download-sec .icon-tow64 {
+  display: block;
+  width: 107px;
+  height: 36px;
+  float: right;
+  background: url(/images/donwload/icon-64.jpg) no-repeat;
+  margin-top: 88px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.download-sec .content-tow {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.download-sec .content-tow .text .p-first {
+  color: #000000;
+  line-height: 22px;
+  margin-top: 5px;
+}
+.download-sec .content-tow .text h6 {
+  padding: 1px;
+  color: #676868;
+  background-color: #d8dada;
+  font-size: 16px;
+  width: 182px;
+  margin-top: 16px;
+}
+.download-sec .content-tow .text h4 {
+  color: #000000;
+  margin-top: 17px;
+}
+.download-sec .content-tow .text .p-sec {
+  padding-top: 0px;
+}
+.download-sec .icon-20 {
+  margin-top: 178px;
+}
+.download-sec .icon-21 {
+  margin-top: 196px;
+}
+.download-sec .icon-three {
+  display: block;
+  width: 69px;
+  height: 67px;
+  background: url(/images/donwload/icon-03.jpg) no-repeat;
+  float: left;
+  margin: 73px 47px 61px 7px;
+}
+.download-sec #li-three {
+  width: 89px;
+  margin-left: 9px;
+  padding-left: 3px;
+}
+.download-sec #li-foure {
+  width: 49px;
+  padding-left: 7px;
+}

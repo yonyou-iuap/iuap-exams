@@ -1,0 +1,80 @@
+#main {
+    padding: 30px;
+}
+
+#showDocument {
+    width: 800px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ctitle-box {
+    border-bottom-width: 1px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.affix {
+    top: 104px;
+    width: 300px;
+}
+
+.page-box .page-box-content #main .page-header .container .ctitle-box {
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 0;
+    zoom: 1;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 767px) {
+    #main {
+        padding: 10px;
+    }
+    .header .header-wrapper .header-icons {
+        display: none;
+    }
+    .header .header-wrapper .logo-box .logo{
+        height: 60px;
+    }
+    .header .right-box-wrapper{
+        height: 60px;
+    }
+    .header .header-wrapper{
+        min-height: 60px;
+    }
+    h4, .h4{
+        font-size: 20px;
+    }
+}
+h1[id]{margin-top:0;padding-top:0}
+
+.header .header-wrapper .cart-header .dropdown-toggle,
+#footer .newsletter input:focus + .submit,
+.icon,
+.big-icon,
+.big-icon:visited,
+.service .icon,
+.close:hover,
+.close:focus,
+.img-thumbnail:hover .bg-images i:before,
+.box-404 h1,
+.gallery-images:hover .bg-images i:before,
+.features-block .header-box .icon-box,
+.features-block .header-box,
+.sidebar .newsletter input:focus + .submit,
+.sidebar .section .selected .close:hover,
+.package .title a,
+.package .price-box .price,
+.package .price-box .icon,
+.pricing .title a,
+.pricing .options li span,
+.pricing .options li.active,
+.banner-set .next:hover,
+.banner-set .prev:hover,
+.btn.btn-border,
+.btn.btn-border .caret,
+.product-remove:hover,
+.one-page .header .header-wrapper .primary .navbar .navbar-collapse .nav .active {
+    color: #c10841;
+}

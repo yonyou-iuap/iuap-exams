@@ -1,0 +1,433 @@
+﻿/******************************************************************************
+  index
+*******************************************************************************/
+body {
+  background: white;
+}
+#header {
+  color: #6c94be;
+}
+/******************************************************************************
+  porxy
+*******************************************************************************/
+#info {
+  /* BLOCKS
+  =============================================================================*/
+  /* HEADERS
+  =============================================================================*/
+  /* LINKS
+  =============================================================================*/
+  /* LISTS
+  =============================================================================*/
+  /* CODE
+  =============================================================================*/
+  /* QUOTES
+  =============================================================================*/
+  /* HORIZONTAL RULES
+  =============================================================================*/
+  /* TABLES
+  =============================================================================*/
+  /* IMAGES
+  =============================================================================*/
+}
+#info p,
+#info blockquote,
+#info ul,
+#info ol,
+#info dl,
+#info table,
+#info pre {
+  margin: 15px 0;
+}
+#info ul,
+#info ol,
+#info li{
+  list-style: decimal;
+}
+#info h1,
+#info h2,
+#info h3,
+#info h4,
+#info h5,
+#info h6 {
+  font-family:"微软雅黑", "sans-serif";
+  margin: 0px 0 16px;
+  padding-bottom: 6px;
+  font-weight: bold;
+  color: #ec606c;
+}
+#info h1 tt,
+#info h1 code,
+#info h2 tt,
+#info h2 code,
+#info h3 tt,
+#info h3 code,
+#info h4 tt,
+#info h4 code,
+#info h5 tt,
+#info h5 code,
+#info h6 tt,
+#info h6 code {
+  font-size: inherit;
+}
+#info h1 {
+  font-size: 28px;
+  border-bottom: 1px solid #ccc;
+}
+#info h1:first-of-type{
+  margin:0px 0 40px;
+}
+
+#info h2 {
+  font-size: 20px;
+}
+#info h3 {
+  font-size: 18px;
+}
+#info h4 {
+  font-size: 16px;
+}
+#info h5 {
+  font-size: 14px;
+}
+#info h6 {
+  color: #777;
+  font-size: 14px;
+}
+#info body > h2:first-child,
+#info body > h1:first-child,
+#info body > h1:first-child + h2,
+#info body > h3:first-child,
+#info body > h4:first-child,
+#info body > h5:first-child,
+#info body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+#info a:first-child h1,
+#info a:first-child h2,
+#info a:first-child h3,
+#info a:first-child h4,
+#info a:first-child h5,
+#info a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+#info h1 + p,
+#info h2 + p,
+#info h3 + p,
+#info h4 + p,
+#info h5 + p,
+#info h6 + p {
+  margin-top: 10px;
+}
+#info a {
+  color: #4183C4;
+  text-decoration: none;
+}
+#info a:hover {
+  text-decoration: underline;
+}
+#info ul,
+#info ol {
+  padding-left: 30px;
+}
+#info ul li > :first-child,
+#info ol li > :first-child,
+#info ul li ul:first-of-type,
+#info ol li ol:first-of-type,
+#info ul li ol:first-of-type,
+#info ol li ul:first-of-type {
+  margin-top: 0px;
+}
+#info ul ul,
+#info ul ol,
+#info ol ol,
+#info ol ul {
+  margin-bottom: 0;
+}
+#info dl {
+  padding: 0;
+}
+#info dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+#info dl dt:first-child {
+  padding: 0;
+}
+#info dl dt > :first-child {
+  margin-top: 0px;
+}
+#info dl dt > :last-child {
+  margin-bottom: 0px;
+}
+#info dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+#info dl dd > :first-child {
+  margin-top: 0px;
+}
+#info dl dd > :last-child {
+  margin-bottom: 0px;
+}
+#info pre,
+#info code,
+#info tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+#info code,
+#info tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+#info pre > code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+#info pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+#info pre code,
+#info pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+#info kbd {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #DDDDDD;
+  background-image: linear-gradient(#F1F1F1, #DDDDDD);
+  background-repeat: repeat-x;
+  border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+  border-image: none;
+  border-radius: 2px 2px 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 10px;
+  padding: 1px 4px;
+}
+#info blockquote {
+  border-left: 4px solid #2DAF5A;
+  padding: 0 15px;
+}
+#info blockquote > :first-child {
+  margin-top: 0px;
+}
+#info blockquote > :last-child {
+  margin-bottom: 0px;
+}
+#info hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+#info table th {
+  font-weight: bold;
+}
+#info table th,
+#info table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+#info table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+#info table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+#info img {
+  border: 1px solid #c3c7d2;
+  max-width: 100%;
+}
+#info .newh2 {
+  margin-left: 20px;
+}
+
+.ctitle-box {
+  border-bottom-width: 1px;
+  margin-bottom: 5px;
+  position: relative;
+}
+#anchors-navbar{
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 2px #ccc;
+  padding: 5px 10px;
+  position: fixed;
+  background-color: #fff;
+  right: 100px;
+  top: 255px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 999;
+  cursor: pointer;
+  text-align: right;
+  max-height: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#anchors-navbar ul{
+  list-style-type:none;
+  display: none;
+  text-align: left;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+#anchors-navbar:hover ul{
+  list-style-type:none;
+  display: block;
+}
+
+#goTopTest{
+  position: fixed;
+  right: 50px;
+  bottom: 68px;
+  border: 1px solid #ccc;
+  z-index: 999;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 2px #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+#nava-title{
+  font-size: 26px;
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.3;
+  color: inherit;
+}
+#page-line {
+  background-color: #f2f2f2;
+  height: 8px;
+}
+/********* common solution**********/
+
+.com_solution {
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+
+.solution_bg {
+  width: 100%;
+  height: 434px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.o2o_bg {
+  background-image: url(../images/solution/o2o.jpg);
+}
+.car_bg {
+  background-image: url(../images/solution/car.jpg);
+}
+.estate_bg {
+  background-image: url(../images/solution/material.jpg);
+}
+.insurance_bg {
+  background-image: url(../images/solution/insurance.jpg);
+}
+.luxury_bg {
+  background-image: url(../images/solution/luxury.jpg);
+}
+.company_bg {
+  background-image: url(../images/company/iuap.jpg);
+}
+.com_solution h3 {
+  color: #333333;
+  font-size: 24px;
+  font-family: 宋体;
+  font-weight: bold;
+  margin: 53px 4.26% 35px 4.26%;
+}
+.solution_bg h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(34,34,34,.5);
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+}
+.com_solution p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 46px;
+  margin: 0 4.26%;
+}
+.com_solution strong {
+  color: #333333;
+  font-size: 20px;
+  font-family: 宋体;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .solution_bg h1 {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .solution_bg {
+    height: 200px;
+  }
+  .com_solution {
+    margin-bottom: 40px;
+  }
+  .com_solution h3 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 27px 4.26% 17px 4.26%;
+  }
+  .com_solution p {
+    color: #333333;
+    font-size: 13px;
+    line-height: 23px;
+    margin: 0 4.26%;
+  }
+  .com_solution strong {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+#mytab .post .content{
+  margin-top: 0px;
+}

@@ -1,0 +1,165 @@
+/*生鲜电商o2oCSS*/
+  .breadcrumb2{
+    background: #f4f4f4;
+    height: auto;
+    padding-top: 0px;
+   }
+  .O2O_bg{
+    height: 420px;
+  }
+  .breadcrumb2 .inner .word2{
+  	font-size: 25px;
+  	color: #9f9f9f;
+  	padding: 30px 0px 30px 0px;
+  }
+  .breads1,.breads2,.breads3,.breads4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
+  .breads1{ height: 260px; }
+  
+  .o2o_main .block_left{
+  	float: left;
+  	width: 1200px;
+  	margin: 0 auto; 
+  }  
+  .o2o_main .block_right{
+    margin-top: -98px;
+    margin-left: 830px;
+  	width: 370px;
+    position: absolute;
+  }
+  .o2o_main .block_left .word1{
+  	color: #ff0000;
+  	font-size: 27px;
+  	margin-left: 0px;
+  	margin-top: 60px;
+  }
+   .o2o_main .inner .word2{
+  	color: #6f6f6f;
+    width: 1000px;
+  	font-size: 16px;
+  	margin-left: 0px;
+  	height: 120px;
+  	margin-top: 30px;
+  }
+  .o2o_main .jjfa_modal{
+    background: #f4f4f4;
+  }
+  .o2o_main .jjfa_modal .inner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 43px 0 ;
+ }
+ .o2o_main .jjfa_modal  .hd .p1{
+    font-size: 28px;
+    color: #ff0000;
+    padding: 0 0 34px;
+ }
+ .o2o_main .jjfa_modal  .hd .p2{
+    font-size: 18px;
+    width: 820px;
+    color: #1a1a1a;
+    line-height: 30px;
+ }
+ .o2o_main .jjfa_modal  .hd {
+    padding-bottom: 46px;
+ }
+ .o2o_main .jjfa_modal  .bd li{
+    padding: 19px 0;
+    border-bottom: 1px solid #dfdfdf;
+ }
+ .o2o_main .jjfa_modal  .bd .fl{
+    font-size: 19px;
+    font-weight: none;
+    color: #ff0000;
+    margin-right: 40px;
+    float: left;
+    width: 200px;
+ }
+ .o2o_main .jjfa_modal  .bd  .p{
+    font-size: 17px;
+    color: #6f6f6f;
+    width: 580px;
+    line-height: 20px;
+    float: left;
+ }
+ .o2o_main .jjfa_modal  .bd  {
+    border-bottom: 1px solid #dfdfdf;
+ }
+ .o2o_main .khjz_modal{
+	background: #ffffff;
+ }
+ .o2o_main .khjz_modal .inner{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 50px 0;
+ }
+ .o2o_main .khjz_modal .inner .w1{
+  	color: #ff0000;
+  	font-size: 27px;
+  	margin-left: 0px;
+  	margin-top: 70px;
+    height: 30px;
+ }
+ .o2o_main .khjz_modal .inner .w2{
+    font-size: 17px;
+    color: #6f6f6f;
+    width: 94%;
+    line-height: 22px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+ }
+ .o2o_main .khjz_modal .inner .img1{
+    width: 6%;
+    line-height: 22px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+ }
+ .o2o_main .khjz_modal .inner ul{
+    margin-top: 10px;
+    width: 1000px;
+ }
+ .o2o_main .khjz_modal .inner li{
+  	padding: 1px 0;
+    height: 70px;
+    display: table;
+    width: 1000px;
+ }
+ .o2o_main .xgzs_modal{
+    background: #f4f4f4;
+ }
+ .o2o_main .xgzs_modal .inner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+ }
+ .o2o_main .xgzs_modal .inner .w1{
+    color: #ff0000;
+    font-size: 27px;
+    margin-left: 0px;
+    margin-top: 70px;
+    height: 30px;
+ }
+ .o2o_main .xgzs_modal .block_left2{
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+ }
+ .o2o_main .xgzs_modal .block_right2{
+    width: 600px;
+    margin: 0 auto;
+    float: right;
+ }
+ .o2o_main .xgzs_modal .inner .word{
+    color: #6f6f6f;
+    width: 500px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 30px;
+ }
+
+

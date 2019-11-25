@@ -1,0 +1,55 @@
+.alert-dialog {
+	height: auto;
+	background-color: #F2F2F2;
+	border-color: #C9C9C9;
+	padding: 0px;
+	border-radius: 0px;
+	color: #333333;
+	width: 330px;
+	margin-left: -100px;
+	position: fixed;
+}
+.alert-dialog h4 {
+	text-align: center;
+	line-height: 20px;
+	font-size: 15px;
+	background-color: #ffffff;
+	padding: 10px 15px;
+	border-bottom: 1px solid #C9C9C9;
+}
+.alert-dialog h4 span {
+	font-size: 18px;
+	color: #FF9917;
+	position: relative;
+	right: 20px;
+}
+.alert-dialog p {
+	margin-bottom: 45px;
+	min-height: 60px;
+	max-height: 200px;
+	padding: 10px 15px;
+	text-align: center;
+	overflow-y: auto;
+}
+.alert-dialog .close {
+	top: 5px;
+	right: 14px;
+	color: #333333;
+}
+.alert-dialog-footer {
+	width: auto;
+	right: 0px;
+	left: auto;
+}
+.alert-dialog-footer .btn {
+	min-height: 28px !important;
+	padding: 0px !important;
+	vertical-align: top !important;
+	margin-left: 10px !important;
+	border-radius: 0px;
+	background-color: #ffffff !important;
+	width: 80px;
+	color: #333333;
+	border-color: #C9C9C9;
+	font-family: 'arial', '\5FAE\8F6F\96C5\9ED1', '宋体' !important;
+}

@@ -7,6 +7,7 @@
     <groupId>com.yonyou.iuap</groupId>
     <artifactId>iuap-exams</artifactId>
     <version>1.0-RELEASE</version>
+    <packaging>war</packaging>
 
 
     <properties>
@@ -22,6 +23,11 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
