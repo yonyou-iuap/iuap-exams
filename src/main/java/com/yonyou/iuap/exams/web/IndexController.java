@@ -22,4 +22,9 @@ public class IndexController {
     public String templateHtml(){
         return "/index.html";
     }
+
+    @GetMapping("/")
+    public String welcome(){
+        return "welcome";
+    }
 }
