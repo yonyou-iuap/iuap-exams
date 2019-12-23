@@ -12,3 +12,18 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+    #static-path-pattern: /static/**
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    url: jdbc:mysql://localhost:3306/exam
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
