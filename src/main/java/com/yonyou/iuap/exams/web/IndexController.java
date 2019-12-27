@@ -30,9 +30,5 @@ public class IndexController {
         return "/index";
     }
 
-    @GetMapping("/welcome")
-    public String toWelcome(){
-        return "/welcome";
-    }
 
 }
