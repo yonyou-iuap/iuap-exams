@@ -5,3 +5,104 @@ p{
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.footer .footer-top {
+    width: 100%;
+    background-color: #323246;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.37rem 0.37rem 0.6rem;
+}
+.footer .footer-top .footer-contactus {
+    display: inline-block;
+}
+.footer .footer-top .footer-contactus .footer-contactus-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer .footer-top .footer-contactus .footer-contactus-wrap img {
+    width: 35px;
+}
+.footer .footer-top .footer-contactus .footer-contactus-wrap .contactCon {
+    margin-left: 0.24rem;
+}
+.footer .footer-top .footer-contactus .footer-contactus-wrap .contactCon :nth-child(2) {
+    margin-bottom: 0.18rem;
+}
+.footer .footer-top .footer-contactus .footer-contactus-wrap h3,
+.footer .footer-top .footer-contactus .footer-contactus-wrap h5 {
+    color: #fff;
+}
+.footer .footer-top .footer-top-wrap {
+    width: 12rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.footer .footer-top .footer-top-item {
+    display: inline-block;
+    color: #fff;
+    vertical-align: top;
+}
+.footer .footer-top .footer-top-item h5 {
+    font-size: 0.16rem;
+    color: #fff;
+}
+.footer .footer-top .footer-top-item ul {
+    margin-top: 0.22rem;
+}
+.footer .footer-top .footer-top-item li {
+    color: #e3e3e3;
+    font-size: 0.14rem;
+    margin-bottom: 0.12rem;
+}
+.footer .footer-top .footer-top-item li a {
+    color: #e3e3e3;
+}
+.footer .footer-top .footer-top-item li a:hover {
+    color: #dd3730;
+}
+.footer .footer-copyright {
+    display: inline-block;
+}
+.footer .footer-copyright .footer-copyright-wrap {
+    font-size: 0.14rem;
+    color: rgba(255, 255, 255, 0.56);
+    opacity: 0.89;
+}
+.footer .footer-copyright .footer-copyright-wrap .footer-c {
+    text-align: left;
+}
+.footer .footer-copyright .footer-copyright-wrap .footer-c span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.footer .footer-copyright .footer-copyright-wrap .footer-c span i {
+    margin-left: 23px;
+}
+.footer .footer-copyright .beianhao {
+    position: relative;
+}
+.footer .footer-copyright .beianhao:before {
+    content: " ";
+    position: absolute;
+    background: url('//cdn.yonyoucloud.com/201706291530/cloud/dist/images/footer/beianhao.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+    top: -2px;
+}
+@media (max-width: 768px) {
+    .footer .footer-top {
+        padding: 0.37rem 0 0.6rem;
+    }
+    .footer .footer-top .footer-contactus .footer-contactus-wrap .contactCon {
+        margin-left: 0;
+    }
+}
